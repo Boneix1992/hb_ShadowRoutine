@@ -13650,6 +13650,28 @@ namespace HREngine.Bots
                     return new Sim_LOOT_998j();
                 case cardIDEnum.GIL_530:
                     return new Sim_GIL_530();
+                // 19-05-01 add hunter some cards start
+                case cardIDEnum.TRL_111:
+                    return new Sim_TRL_111();
+                case cardIDEnum.TRL_339:
+                    return new Sim_TRL_339();
+                case cardIDEnum.TRL_347:
+                    return new Sim_TRL_347();
+                case cardIDEnum.TRL_348:
+                    return new Sim_TRL_348();
+                case cardIDEnum.TRL_348t:
+                    return new Sim_TRL_348t();
+                case cardIDEnum.TRL_566:
+                    return new Sim_TRL_566();
+                case cardIDEnum.GIL_828:
+                    return new Sim_GIL_828();
+                case cardIDEnum.GIL_518:
+                    return new Sim_GIL_518();
+                case cardIDEnum.DAL_743:
+                    return new Sim_DAL_743();
+                case cardIDEnum.DAL_743t:
+                    return new Sim_DAL_743t();
+                // 19-05-01 add hunter some cards end
             }
 
             return new SimTemplate();
